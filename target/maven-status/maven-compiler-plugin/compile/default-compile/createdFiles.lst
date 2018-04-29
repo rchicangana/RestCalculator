@@ -1,0 +1,8 @@
+co\com\javeriana\restcalculator\dto\MensajeDTO.class
+co\com\javeriana\restcalcultator\util\GsonMessageBodyHandler.class
+co\com\javeriana\restcalcultator\util\HttpUtil.class
+co\com\javeriana\restcalculator\config\ApplicationConfig.class
+co\com\javeriana\restcalcultator\util\ConstantesComunes$CodigosResultado.class
+co\com\javeriana\restcalcultator\logica\CalculatorLogica.class
+co\com\javeriana\restcalcultator\servicios\CalculatorServicio.class
+co\com\javeriana\restcalcultator\util\ConstantesComunes.class
