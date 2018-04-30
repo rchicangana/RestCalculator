@@ -1,7 +1,7 @@
 C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalculator\config\ApplicationConfig.java
-C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalcultator\logica\CalculatorLogica.java
-C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalcultator\servicios\CalculatorServicio.java
-C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalcultator\util\ConstantesComunes.java
+C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalculator\util\HttpUtil.java
+C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalculator\util\GsonMessageBodyHandler.java
 C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalculator\dto\MensajeDTO.java
-C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalcultator\util\GsonMessageBodyHandler.java
-C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalcultator\util\HttpUtil.java
+C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalculator\servicios\CalculatorServicio.java
+C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalculator\logica\CalculatorLogica.java
+C:\Users\rchic\Documents\NetBeansProjects\mavenproject1\RestCalcultator\src\main\java\co\com\javeriana\restcalculator\util\ConstantesComunes.java
