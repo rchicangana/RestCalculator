@@ -8,6 +8,7 @@ package co.com.javeriana.restcalculator.logica;
 import co.com.javeriana.restcalculator.dto.MensajeDTO;
 import co.com.javeriana.restcalculator.util.ConstantesComunes;
 import java.util.List;
+import java.util.Optional;
 import javax.ejb.Stateless;
 
 /**
@@ -84,8 +85,17 @@ public class CalculatorLogica {
         MensajeDTO salida = new MensajeDTO();
         
         try {
-            salida.setResultado(mapa.stream().reduce(mapa.get(0)*mapa.get(0), (a,b) -> a / b));
-            salida.setEstado(ConstantesComunes.CodigosResultado.OK.name());
+            
+            Optional<Double> cero = mapa.stream().filter(s -> s==0).findFirst();
+            if(!cero.isPresent()){
+                salida.setResultado(mapa.stream().reduce(mapa.get(0)*mapa.get(0), (a,b) -> a / b));
+                salida.setEstado(ConstantesComunes.CodigosResultado.OK.name());
+            } else {
+                salida.setEstado(ConstantesComunes.CodigosResultado.ERROR.name());
+                salida.setMensaje("No es posible enviar el valor cero en la division");
+            }
+            
+            
         } catch (Exception e) {
             salida.setEstado(ConstantesComunes.CodigosResultado.ERROR.name());
             salida.setMensaje(e.getLocalizedMessage());

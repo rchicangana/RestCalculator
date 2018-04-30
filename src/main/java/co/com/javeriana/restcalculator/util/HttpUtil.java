@@ -14,7 +14,7 @@ import java.util.Map;
  */
 public class HttpUtil {
     public static final String PATH_MULTIPARAMETRO = "{parametros:(/?(-?[0-9]+))*}";
-    public static final String PATH_MULTIPARAMETRO_DIV = "{parametros:(/?(-?[1-9]+))*}";
+    public static final String PATH_MULTIPARAMETRO_DIV = "{parametros:(/?(-?[0-9]+))*}";
     public static final String PATH_PARAM_MULTIPARAMETRO = "parametros";
     
     public static void obtenerParametrosPath(String path, List<Double> mapaParametros){
